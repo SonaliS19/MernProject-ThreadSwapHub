@@ -33,9 +33,9 @@ function Products() {
             });
     }, [category]);
 
-    if (!subcat.startsWith("women")) {
-        return <PageNotFound />;
-    }
+    // if (!subcat.startsWith("women")) {
+    //     return <PageNotFound />;
+    // }
 
     const handleAddToCart = (item) => {
         setItems([...items, item]);
